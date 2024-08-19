@@ -1,0 +1,58 @@
+*{
+    font-family: 'Courier New';
+}
+h1{
+    color: brown;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: brown;
+    color: white;
+}
+.spot a{
+    color: black;
+    background-color: yellow;
+}
+nav ul li a{
+    color: pink;
+}
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+.upvote+ button{
+    background-color: aqua;
+
+}
+input[type]{
+    background-color:antiquewhite;
+}
+input[type="text"]{
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    color: white;
+    background-color: yellowgreen;
+}
+input[type="radio"]:checked + label{
+    color: blue;
+    font-weight: bold;
+}
+.spot:nth-of-type(2n){
+     background-color: antiquewhite;
+}
+h1::first-letter{
+    color: chocolate;
+}
+.last::first-line{
+    color: burlywood;
+}
+p::selection{
+    background-color: pink;
+}
